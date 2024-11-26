@@ -1,9 +1,18 @@
 package ejemplo1;
 
-public class Cliente {
+/*
+Autor: Santiago Palencia
+Tema: Codigo de banco 
+*/
 
-    String nombre;
-    Cliente(String nombre) {
-    this.nombre = nombre;
+public class Cliente {
+    private String nombre;
+
+    public Cliente(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
     }
 }
